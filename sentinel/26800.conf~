@@ -1,0 +1,4 @@
+ port 26800
+ sentinel monitor dba 127.0.0.1 6379 1
+ sentinel failover-timeout dba 8000
+ sentinel down-after-miliseconds dba 5000
